@@ -1,0 +1,606 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/***** header-area styles *****/
+.header-area{
+	overflow: hidden;
+	background: url('img/f.png')no-repeat scroll 0 0 / 100% 100%;
+}
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	background: url('img/.jpg')no-repeat scroll 0 0 / 100% 100%;
+}
+.header-top-area{
+	overflow: hidden;
+}
+.header-top-area-left{
+	width: 16%;
+	overflow: hidden;
+	float: left;
+}
+.header-top-area-left h1{
+	font-size: 36px;
+	 font-family: 'Yeseva One', cursive;
+	 color:#000000;
+}
+.header-top-area-middle{
+	width: 75%;
+	overflow: hidden;
+	float: left;
+}
+.resposive_menu_bar {
+	color: #732c2c;
+	margin-top: 27px;
+	display: none;
+	text-align: center;
+	font-size: 40px;
+	text-align: center;
+	padding: 5px 16px;
+	border-radius: 4px;
+}
+.menubar{}
+.menubar ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	float: right;
+}
+.menubar ul li{
+	display: inline;
+}
+.menubar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 16px;
+	display: inline-block;
+	font-size: 21px;
+	font-weight: 700;
+	overflow: hidden;
+	font-family: 'Gentium Book Basic', serif;
+	margin-top: 23px;
+	color:#FFFFFF;
+}
+.header-area-top-icon{
+	width: 9%;
+	overflow: hidden;
+	margin-top: 23px;
+}
+.header-area-top-icon ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	float: right;
+	
+}
+.header-area-top-icon ul li {
+	display: inline-block;
+	font-size: 22px;
+	padding: 9px 3px;
+	cursor: pointer;
+	color: #E09835;
+}
+.header-left-area{
+	overflow: hidden;
+	text-align: center;
+}
+.header-left-area h1{
+	font-size: 90px;
+	font-family: 'Yeseva One', cursive;
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 101%;
+}
+.header-left-area img{
+	margin: 22px 0px;
+}
+.header-left-area ul {
+	margin: 29px 12px;
+	padding: 0;
+	list-style: none;
+	margin-top: 16px;
+}
+.header-left-area ul li {
+	display: inline-block;
+	padding: 12px 20px;
+	margin: 2px 25px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-bottom: 56px;
+	margin-top: 20px;
+	transition: 1s;
+	cursor: pointer;
+}
+.header-left-area ul li:nth-of-type(1){
+	background: #3A1414;
+}
+.header-left-area ul li:nth-of-type(2){
+	background: #CD9B67;
+}
+.header-left-area ul li:nth-of-type(2):hover{
+	background: #916333;
+}
+.header-left-area ul li:nth-of-type(1):hover{
+	background: #362F27;
+}
+/**slider-area**/
+.slider-area{
+	overflow: hidden;
+	background:url('img/ac.jpg')no-repeat scroll 0 0 / 100% 100%;
+}
+.slider-area-left {
+	float: left;
+	margin-top: 23px;
+	margin-bottom: 30px;
+	width: 50%;
+	overflow: hidden;
+	text-align: center;
+}
+.slider-area-left h1{
+	color:#CC9900;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.slider-area-left img{
+	margin: 8px 0px;
+}
+.slider-area-left p {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: #4C4C4C;
+	margin-right: 25px;
+	line-height: 23px;
+	width: 83%;
+	margin-bottom: 30px;
+	margin-left: 13px;
+}
+.slider-area-right{
+	width: 50%;
+	margin-top: 51px;
+	overflow: hidden;
+}
+.slider-area-right img{
+	width: 100%;
+}
+/*ingredients-area style*/
+.ingredients-area{
+	overflow:hidden;
+	background:url('img/g.png')no-repeat scroll 0 0 / 100% 100%;
+}
+.ingredients-left-area{
+	width:50%;
+	float:left;
+	overflow:hidden;
+}
+.ingredients-right-area {
+	background: url('img/abcd.png')no-repeat scroll 0 0 / 100% 100%;
+	opacity: 0.6;
+	margin-top: 116px;
+	display: inline-block;
+	margin-bottom: 96px;
+}
+.ingredients-right-area h1{
+	color: #FFFFFF;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.ingredients-right-area img{}
+.ingredients-right-area p{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	line-height: 33px;
+}
+.ingredients-area-right-top{
+	float: right;
+	text-align: center;
+	overflow:hidden;
+	width: 50%;
+}
+.ingredients-right-area ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ingredients-right-area ul li{
+	display: inline;
+}
+.ingredients-right-area ul li img{
+	margin: 10px 7px;
+}
+/***Reservations-area style***/
+.Reservations-area{
+	overflow:hidden;
+	background:url('img/ac.jpg')no-repeat scroll 0 0 / 100% 100%;
+}
+.Reservations-area-left{
+	margin-top: 67px;
+}
+.Appetisers-area {
+	width: 42%;
+	overflow: hidden;
+	margin-right: 5%;
+	float: left;
+	padding: 0 10px;
+}
+.Appetisers-area h1{
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	color:#CC9900;
+}
+.Appetisers-area h1:nth-of-type(2){
+	margin-top: 72px;
+}
+.Appetisers-area img{
+	margin: 0 auto;
+	display: inherit;
+	margin-bottom: 30px !important;
+}
+.Appetisers-area ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border-bottom: 1px solid #E6E0C4;
+	padding-bottom: 11px;
+}
+.Appetisers-area ul li{
+	display: inline;
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+	color: #C89F2D;
+}
+.Special{
+	text-align: right;
+	list-style: none;
+}
+.Special a {
+	text-decoration: none;
+	background: #D6BB6C;
+	color: #F8FAFA;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px 13px;
+	transition: 1s;
+}
+.Special a:hover{
+	background:#F5B70F;
+}
+.Greek_Salad{
+	border: 1px solid #E6E0C4;
+	padding: 5px;
+}
+.Appetisers-area p{
+	color:#4C4C4C;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 41px;
+}
+.Appetisers-area ul li:nth-of-type(2){
+	float:right;
+}
+/***Starters-area style***/
+.Starters-area {
+	width: 42%;
+	overflow: hidden;
+	display: block;
+	padding: 0 10px;
+}
+.Starters-area h1{
+	text-align: center;
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	color:#CC9900;
+}
+.Starters-area h1:nth-of-type(2){
+	margin-top: 72px;
+}
+.Starters-area img{
+	margin: 0 auto;
+	display: inherit;
+	margin-bottom: 30px !important;
+	
+}
+.Starters-area ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border-bottom: 1px solid #E6E0C4;
+	padding-bottom: 11px;
+}
+.Starters-area ul li{
+	display: inline;
+	font-size: 21px;
+	font-family: 'Yeseva One', cursive;
+	color: #C89F2D;
+}
+.Starters-area ul li:nth-of-type(2){
+	float:right;
+}
+.Starters-area p{
+	color:#4C4C4C;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 41px;
+}
+/****Guest-Reviews-area style****/
+.Guest-Reviews-area{
+	overflow: hidden;
+	background: url('img/b.png')no-repeat scroll 0 0 / 100% 100%;
+}
+.Guest-Reviews-area-top {
+	background: url('img/abcd.png')no-repeat scroll 0 0 / 100% 100%;
+	text-align: center;
+	margin: 110px 150px;
+	padding: 31px 10px;
+	opacity: 0.8;
+}
+.Guest-Reviews-area-top h1{
+	font-size: 36px;
+	color: white;
+	font-family: 'Yeseva One', cursive;
+}
+.Guest-Reviews-area-top img{}
+.Guest-Reviews-area-top p{
+	color:#DEE0E0;
+	font-size: 25px;
+	font-weight:700;
+	line-height: 40px;
+	font-family: 'Gentium Book Basic', serif;
+	width: 82%;
+	margin: 0 auto;
+}
+.Guest-Reviews-area-top p:nth-of-type(2){
+	color:white;
+	font-size:18px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+/***food-area style***/
+.food-area{
+	background: url('img/ac.jpg')no-repeat scroll 0 0 / 100% 100%;
+	overflow: hidden;
+}
+.food-area-menu{
+	overflow: hidden;
+	margin: 112px 0px;
+}
+.food-area-left{
+	width: 50%;
+	float:left;
+	overflow: hidden;
+}
+.food-area-left img {
+	float: left;
+	overflow: hidden;
+	width: 43%;
+	margin-right: 7%;
+	height: 462px;
+	margin-top: 30px;
+}
+.food-area-right {
+	text-align: center;
+	overflow: hidden;
+	width: 43%;
+	margin: auto;
+}
+.food-area-right h1{
+	color: #CC9900;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+}
+.food-area-right img{
+	margin-bottom: 11px;
+}
+.food-area-right p{
+	color: #4C4C4C;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.input-area{
+	width: 100%;
+}
+.input-area-left {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 27px !important;
+}
+.input-area-left p{
+	font-family: 'Open Sans', sans-serif;
+	color: #C9A131;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+}
+.input-area-left inpu{}
+.input-area-right{
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	margin-top: 10px !important;
+	margin: auto;
+	margin-bottom: 27px !important;
+}
+.input-area-right p{
+	font-family: 'Open Sans', sans-serif;
+	color: #C9A131;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: left;
+}
+.input-area-right inpu{
+	
+	
+}
+.input-area a {
+	text-align: center !important;
+	text-decoration: none;
+	background: #C9A131;
+	margin: 0 auto;
+	padding: 6px 30px;
+	display: inline-block;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	color: #FFFFFF;
+	transition: 1s;
+}
+.input-area a:hover{
+	background: #F5B70C;
+}
+.inpu {
+	text-align: left;
+	display: block;
+	margin-bottom: 11px;
+	font-size: 16px;
+	color: #7C7C7C;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	background: none;
+	border: 1px solid #e8d4d4;
+	padding: 8px;
+	width: 87%;
+}
+/**********footer-area style**********/
+.footer-area{
+	overflow: hidden;
+	background: #191919;
+	color: white;
+}
+.About-Us-footer-area{
+	margin: 46px 0px;
+}
+.About-Us-area {
+	float: left;
+	width: 30%;
+	overflow: hidden;
+	margin-right: 3%;
+	text-align: center;
+}
+.About-Us-area h1{
+	font-size:21px;
+	color:#FFFFFF;
+	font-family: 'Yeseva One', cursive;
+	
+}
+.About-Us-area img{}
+.About-Us-area p{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+	line-height: 29px;
+	text-align: justify;
+	margin-left: 16px;
+}
+.Opening-Hours-area {
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	margin: 0% 2%;
+	text-align: center;
+}
+.Opening-Hours-area h1{
+	font-size:21px;
+	color:#FFFFFF;
+	font-family: 'Yeseva One', cursive;
+}
+.Opening-Hours-area img{}
+.Opening-Hours-area img:nth-of-type(2){
+	height: 28px;
+	margin-top: 48px;
+}
+.Opening-Hours-area p{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+}
+.Opening-Hours-area ul{}
+.Opening-Hours-area ul li{}
+.Our-Location-area {
+	overflow: hidden;
+	width: 30%;
+	margin-left: 3%;
+	display: inline-block;
+	text-align: center;
+}
+.Our-Location-area h1{
+	font-size:21px;
+	color:#FFFFFF;
+	font-family: 'Yeseva One', cursive;
+}
+.Our-Location-area img{}
+.Our-Location-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.Our-Location-area ul p{
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color:#FFFFFF;
+}
+.Our-Location-area ul li{
+	display: inline;
+}
+.Our-Location-area ul li i {
+	display: inline-block;
+	padding: 10px 9px;
+	font-size: 22px;
+	margin-top: 39px;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+/*
+	font-family: 'Gentium Book Basic', serif;
+
+    font-family: 'Yeseva One', cursive;
+	
+	font-family: 'Lato', sans-serif;
+	
+	font-family: 'Open Sans', sans-serif;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

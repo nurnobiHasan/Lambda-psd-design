@@ -1,0 +1,227 @@
+@media all and (max-width:991px){
+	.header-top-area-left{
+		width: 33.33%;
+		overflow: hidden;
+		text-align: center;
+	}
+	.header-area-top-icon{
+		width: 33.33%;
+		overflow: hidden;
+	}
+	.header-area-top-icon ul {
+		float: none;
+		text-align: center;
+	}
+	.header-area-top-icon ul li{
+		font-size: 33px;
+		padding: 10px 22px;
+	}
+	.header-top-area-middle{
+		width: 33.33%;
+	}
+	.resposive_menu_bar{
+		display: inherit;
+	}
+	.resposive_menu_bar i{
+		background:#d57e7e;
+		padding: 6px 17px;
+		border-radius: 7px;
+		cursor: pointer;
+	}
+	.menubar ul{
+		float: none;
+		text-align: center;
+		display: none;
+	}
+	.menubar ul li{
+		display: inherit;
+	}
+	.menu ul li a{
+		transition: 1s;
+	}
+	.menubar ul li a:hover{
+		color: #EDC2C2;
+	}
+	.header-left-area h1 {
+		font-size: 55px;
+		width: 85%;
+		margin: 0 auto;
+		margin-bottom: 44px;
+		margin-top: 35px;
+	}
+	.About-Us-area {
+		width:46%;
+		float:left;
+		overflow:hidden;
+	}
+	.Opening-Hours-area{
+		width:46%;
+		float:left;
+		overflow:hidden;
+	}
+	.Our-Location-area{
+		width:47%;
+		float:left;
+		margin-top: 41px;
+		overflow:hidden;
+	}
+	
+	
+	
+	
+	
+	
+	
+}
+@media all and (max-width:767px){
+	.header-left-area h1{
+		width: 97%;
+		font-size: 40px;
+	}
+	.header-area-top-icon ul li{
+		padding: 10px 13px;
+	}
+	.slider-area-left{
+		width:100%;
+		overflow: hidden;
+	}
+	.slider-area-left p{
+		width: 92%;
+	}
+	.slider-area-right{
+		width:100%;
+		overflow: hidden;
+	}
+	.ingredients-area-right-top{
+		width: 100%;
+		margin: 20px 7px;
+		
+	}
+	.ingredients-right-area p{
+		margin-left: 19px;
+	}
+	.Appetisers-area{
+		width: 95%;
+		overflow:hidden;
+	}
+	.Starters-area{
+		width: 95%;
+		display: inherit;
+	}
+	.Guest-Reviews-area-top{
+		margin: 110px 68px;
+		padding: 31px 0px;
+	}
+	.food-area-left{
+		width: 100%;
+		float:left;
+		overflow: hidden;
+	}
+	.food-area-right{
+		width: 96%;
+		overflow: hidden;
+	}
+	.About-Us-area {
+		width: 93%;
+		float: left;
+		overflow: hidden;
+	}
+	.Opening-Hours-area{
+		width:46%;
+		float:left;
+		overflow:hidden;
+		margin-top: 41px;
+		margin-bottom: 30px;
+	}
+	.Our-Location-area{
+		width:46%;
+		float:left;
+		margin-top: 41px;
+		overflow:hidden;
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width: 576px){
+	.header-top-area-left{
+		width: 100%;
+		overflow: hidden;
+	}
+	.header-area-top-icon{
+		width: 100%;
+		overflow: hidden;
+	}
+	.header-top-area-middle{
+		width: 100%;
+		
+	}
+	.Guest-Reviews-area-top p{
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.Guest-Reviews-area-top{
+		margin: 110px 32px;
+	}
+	.Guest-Reviews-area-top h1 {
+		font-size: 29px;
+	}
+	.Opening-Hours-area {
+		width: 93%;
+		float: left;
+		overflow: hidden;
+		margin-top: 41px;
+	}
+	.Our-Location-area{
+		width:96%;
+		float:left;
+		margin-top: 41px;
+		overflow:hidden;
+		margin-bottom: 30px;
+	}
+	
+}
+@media all and (max-width: 420px){
+	
+	.ingredients-right-area ul li img {
+		margin: 10px 0px;
+	}
+	.food-area-left img{
+		width:100%;
+		float:left;
+		overflow: hidden;
+	}
+	.input-area-left {
+		width: 100%;
+	}
+	.input-area-right {
+		width: 100%;
+	}
+	.food-area-menu{
+		margin: 45px 0px;
+	}
+}
+
+@media all and (max-width: 340px){
+	.ingredients-right-area ul li {
+		display: inherit;
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
